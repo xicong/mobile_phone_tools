@@ -6,100 +6,100 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="14"
-8-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml
+8-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml
+9-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-11-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:7:5-75
-11-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:7:22-73
+11-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:7:5-75
+11-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:7:22-73
 12
 13    <application
-13-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:9:5-24:19
+13-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:9:5-24:19
 14        android:name="com.cong.tools.App"
-14-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:10:13-32
+14-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:10:13-32
 15        android:allowBackup="true"
-15-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:11:13-39
+15-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:11:13-39
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/ddc4d5d5d8ba7442d59e0399238a2056/core-1.1.0/AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.1.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/034a0d6f5e1278e388e7c5fca766e350/core-1.1.0/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/ic_launcher"
-18-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:12:13-47
+18-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:12:13-47
 19        android:label="@string/app_name"
-19-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:13:13-45
+19-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:13:13-45
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:14:13-58
+20-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:14:13-58
 21        android:supportsRtl="true"
-21-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:15:13-39
+21-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:15:13-39
 22        android:testOnly="true"
 23        android:theme="@style/AppTheme" >
-23-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:16:13-44
+23-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:16:13-44
 24        <activity android:name="com.cong.tools.MainActivity" >
-24-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:17:9-23:20
-24-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:17:19-47
+24-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:17:9-23:20
+24-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:17:19-47
 25            <intent-filter>
-25-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:18:13-22:29
+25-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:18:13-22:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:19:17-68
-26-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:19:25-66
+26-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:19:17-68
+26-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:19:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:21:17-76
-28-->/Users/xc/Desktop/myself/mobile_phone_tool/app/src/main/AndroidManifest.xml:21:27-74
+28-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:21:17-76
+28-->/Users/xc/Desktop/myself/my/mobile_phone_tools/app/src/main/AndroidManifest.xml:21:27-74
 29            </intent-filter>
 30        </activity>
 31        <activity
-31-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:10:9-14:75
+31-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:10:9-14:75
 32            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
-32-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:11:13-83
+32-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:11:13-83
 33            android:configChanges="orientation|keyboardHidden|screenSize"
-33-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:12:13-74
+33-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:12:13-74
 34            android:theme="@style/ActivityTranslucent"
-34-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:13:13-55
+34-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:13:13-55
 35            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-35-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:14:13-72
+35-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:14:13-72
 36        <activity
-36-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:15:9-20:75
+36-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:15:9-20:75
 37            android:name="com.blankj.utilcode.util.UtilsTransActivity"
-37-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:16:13-71
+37-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:16:13-71
 38            android:configChanges="orientation|keyboardHidden|screenSize"
-38-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:17:13-74
+38-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:17:13-74
 39            android:multiprocess="true"
-39-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:18:13-40
+39-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:18:13-40
 40            android:theme="@style/ActivityTranslucent"
-40-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:19:13-55
+40-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:19:13-55
 41            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-41-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:20:13-72
+41-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:20:13-72
 42
 43        <provider
-43-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:22:9-30:20
+43-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:22:9-30:20
 44            android:name="com.blankj.utilcode.util.UtilsFileProvider"
-44-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:23:13-70
+44-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:23:13-70
 45            android:authorities="com.cong.tools.utilcode.provider"
-45-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:24:13-69
+45-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:24:13-69
 46            android:exported="false"
-46-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:25:13-37
+46-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:25:13-37
 47            android:grantUriPermissions="true" >
-47-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:26:13-47
+47-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:26:13-47
 48            <meta-data
-48-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:27:13-29:68
+48-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:27:13-29:68
 49                android:name="android.support.FILE_PROVIDER_PATHS"
-49-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:28:17-67
+49-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:28:17-67
 50                android:resource="@xml/util_code_provider_paths" />
-50-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:29:17-65
+50-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:29:17-65
 51        </provider>
 52
 53        <service
-53-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:32:9-38:19
+53-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:32:9-38:19
 54            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
-54-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:33:13-81
+54-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:33:13-81
 55            android:exported="false" >
-55-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:34:13-37
+55-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:34:13-37
 56            <intent-filter>
-56-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:35:13-37:29
+56-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:35:13-37:29
 57                <action android:name="com.cong.tools.messenger" />
-57-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:36:17-69
-57-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/0b810a852c14676cdc4bc7b17108bffd/jetified-utilcode-1.29.0/AndroidManifest.xml:36:25-66
+57-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:36:17-69
+57-->[com.blankj:utilcode:1.29.0] /Users/xc/.gradle/caches/transforms-2/files-2.1/002c9616dd2d9b752173a49230f28406/jetified-utilcode-1.29.0/AndroidManifest.xml:36:25-66
 58            </intent-filter>
 59        </service>
 60    </application>
