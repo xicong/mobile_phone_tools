@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android_Work\\mobile_phone_tool\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "/Users/xc/Desktop/myself/mobile_phone_tool/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cong\\.gradle\\caches\\transforms-2\\files-2.1\\62d0ce58c94738785df73af049cc2fda\\jetified-BaseRecyclerViewAdapterHelper-2.9.43-alpha1\\res\\values-en\\values-en.xml",
+                    "source": "/Users/xc/.gradle/caches/transforms-2/files-2.1/574f223972f4d0f0c7d4adae213eb9c7/jetified-BaseRecyclerViewAdapterHelper-3.0.2/res/values-en/values-en.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,111,174",
-                        "endColumns": "55,62,52",
-                        "endOffsets": "106,169,222"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,122,178,241",
+                        "endColumns": "66,55,62,52",
+                        "endOffsets": "117,173,236,289"
                     }
                 }
             ]

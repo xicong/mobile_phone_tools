@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cong.toolsapp"
+    package="com.cong.tools"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.cong.toolsapp.ToolsApp"
+        android:name="com.cong.tools.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.cong.toolsapp.MainActivity" >
+        <activity android:name="com.cong.tools.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,26 +29,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.blankj.utilcode.util.Utils$TransActivity"
+            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.blankj.utilcode.util.UtilsTransActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:multiprocess="true"
             android:theme="@style/ActivityTranslucent"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
 
         <provider
-            android:name="com.blankj.utilcode.util.Utils$FileProvider4UtilCode"
-            android:authorities="com.cong.toolsapp.utilcode.provider"
+            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+            android:authorities="com.cong.tools.utilcode.provider"
             android:exported="false"
-            android:grantUriPermissions="true"
-            android:multiprocess="true" >
+            android:grantUriPermissions="true" >
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/util_code_provider_paths" />
         </provider>
 
-        <service android:name="com.blankj.utilcode.util.MessengerUtils$ServerService" >
+        <service
+            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+            android:exported="false" >
             <intent-filter>
-                <action android:name="com.cong.toolsapp.messenger" />
+                <action android:name="com.cong.tools.messenger" />
             </intent-filter>
         </service>
     </application>

@@ -1,1 +1,6 @@
-[]
+{
+  "version": 1,
+  "applicationId": "com.cong.tools",
+  "variantType": "BASE_APK",
+  "elements": []
+}
