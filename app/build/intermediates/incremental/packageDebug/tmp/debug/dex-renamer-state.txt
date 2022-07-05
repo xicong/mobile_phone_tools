@@ -1,4 +1,4 @@
-#Sat Nov 14 17:02:41 CST 2020
-base.0=/Users/xc/Desktop/myself/my/mobile_phone_tools/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
+#Tue Jul 05 11:25:56 CST 2022
+base.0=/Users/xc/Desktop/WorkFolder/AndroidStudioProjects/mobile_phone_tools/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
+path.0=classes.dex
